@@ -4,9 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.jerry</groupId>
     <artifactId>jvmRuntimeTool</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1</version>
 
-
+    <!--javassist-->
+    <dependencies>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.27.0-GA</version>
+        </dependency>
+    </dependencies>
 </project>
